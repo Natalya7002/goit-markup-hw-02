@@ -71,18 +71,10 @@ color: rgba(67, 68, 85, 1);
 /* Section Hero */
 
 .titlle-hero{
-width: 1440px;
-height: 600px;
-top: 72px;
 background-color: rgba(46, 47, 66, 1);
 color:rgba(255, 255, 255, 1);
 }
-.title{
-width: 496px
-height: 120px
-top: 260px
-left: 472px
-}
+
 
 .title{
 font-family: 'Roboto', sans-serif;
@@ -102,8 +94,6 @@ font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.04em;
 color: rgba(255, 255, 255, 1);    
-width: 105px
-height: 24px
 
 }
 .button:hover,
@@ -113,12 +103,6 @@ height: 24px
 /* Section 2 */
 .benefits{
 line-height: 1.2;   
-}
-.contant{
-    width: 1128px
-    height: 104px
-    top: 792px
-    left: 156px
 }
 
 
@@ -141,12 +125,6 @@ color: rgba(67, 68, 85, 1);
 }
 
 /* Section Our Team  */
-.main{
-background-color: rgba(244, 244, 253, 1);
-width: 1440px
-height: 732px
-top: 1016px   
-}
 
 .aside{
 color: #2E2F42;    
@@ -219,12 +197,7 @@ color: rgba(67, 68, 85, 1);
 }
 
 /*  Footer */
-.footer{
-width: 1440px;
-height: 312px;
-top: 2988px;
-background-color: rgba(46, 47, 66, 1);
-}
+
 
 .text-logo{
 color: #4D5AE5; 
