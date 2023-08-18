@@ -37,6 +37,7 @@ body {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
+  letter-spacing: 0.02em
   color: #2e2f42;
   text-decoration: none;
 }
@@ -91,7 +92,7 @@ a {
 }
 .button:hover,
 .button:focus {
-  color: #404bbf;
+background-color: #404BBF;
 }
 /* Section 2 */
 .benefits {
@@ -127,6 +128,7 @@ a {
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
   text-transform: capitalize;
 }
 
@@ -166,8 +168,9 @@ a {
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  text-transform: capitalize;
   text-align: center;
+  text-transform: capitalize;
+  
 }
 
 .portfolio-main {
@@ -176,6 +179,7 @@ a {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.02em;
+  text-align: center;
   color: rgba(46, 47, 66, 1);
 }
 
@@ -218,6 +222,6 @@ a {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.02em;
   text-transform: uppercase;
 }
