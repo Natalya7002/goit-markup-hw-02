@@ -136,5 +136,150 @@ height: 24px
 
 }
 
+/* Section 2 */
+.contant{
+    width: 1128px
+    height: 104px
+    top: 792px
+    left: 156px
+}
 
+
+.benefits-second{
+font-family: 'Roboto', sans-serif;
+font-size: 20px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.02em;
+text-align: left;
+color: rgba(46, 47, 66, 1);
+}
+
+.text{
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.02em;
+text-align: left;
+color: rgba(67, 68, 85, 1);
+}
+
+/* Section Our Team  */
+.main{
+background-color: rgba(244, 244, 253, 1);
+width: 1440px
+height: 732px
+top: 1016px   
+}
+
+.aside{
+font-family: 'Roboto', sans-serif;
+font-size: 36px;
+font-weight: 700;
+line-height: 1.1;
+letter-spacing: 0.02em;
+text-align: center;
+}
+
+.aside-item{   
+width: Fixed (232px)
+height: Hug (56px)
+gap: 8px
+    
+}
+
+
+.aside-title{
+color: rgba(46, 47, 66, 1);    
+font-family: 'Roboto', sans-serif;
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
+text-align: center;
+    
+}
+
+.section-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+color: rgba(67, 68, 85, 1);        
+}
+
+/* Section Portfolio  */
+.portfolio{
+width: 1128px;
+height: 1000px;
+top: 1868px;
+left: 156px;
+border: 1px;
+color: rgba(231, 233, 252, 1); 
+}
+
+.portfolio-title{
+font-family: 'Roboto', sans-serif;
+font-size: 36px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0.02em;
+text-align: center;
+}
+
+.portfolio-item{
+width: 360px
+height: 420px
+top: 1980px
+left: 156px
+padding: 0px 0px 32px 0px
+border: 1px       
+}
+
+.portfolio-main{
+font-family: Roboto;
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-align: left;
+color: rgba(46, 47, 66, 1);    
+}
+
+.portfolio-text{
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-align: left;
+color: rgba(67, 68, 85, 1);
+}
+
+/*  Footer */
+.footer{
+width: 1440px;
+height: 312px;
+top: 2988px;
+background-color: rgba(46, 47, 66, 1);
+}
+
+.footer-logo{
+width: 115px;
+height: 24px;
+top: 3088px;
+left: 156px;  
+}
+
+.footer-text{
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-align: left;    
+}
 
