@@ -4,66 +4,88 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
+
   <body>
-    <header>
+    <header class="page-header">
       <nav>
-        <a href="./index.html">WebStudio</a>
-        <ul>
-          <li>
-            <a href="">Studio</a>
+        <a class="text-logo" href=""><span class="logo-web">Web</span>Studio</a>
+
+        <ul class="contakts-nav">
+          <li class="contakts-item">
+            <a class="link" href="">Studio</a>
           </li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Contacts</a></li>
+          <li class="contakts-item">
+            <a class="link" href="">Portfolio</a>
+          </li>
+          <li class="contakts-item">
+            <a class="link" href="">Contacts</a>
+          </li>
         </ul>
       </nav>
       <address>
-        <ul>
-          <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <ul class="address">
+          <li class="address-item">
+            <a class="address-link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
           <li>
-            <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+            <a class="address-link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
           </li>
         </ul>
       </address>
     </header>
 
     <main>
-      <!-- Section 1 -->
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+      <!-- Section Hero -->
+      <section class="titlle-hero">
+        <h1 class="title">Effective Solutions <br />for Your Business</h1>
+        <button class="button" type="button">Order Service</button>
       </section>
 
       <!-- Section 2 -->
       <section>
-        <h2>sk</h2>
-        <ul>
-          <li>
-            <h3>Strategy</h3>
-            <p>
+        <h2 class="hidden">sk</h2>
+        <ul class="benefits-menu">
+          <li class="benefits-item">
+            <h3 class="benefits-second">Strategy</h3>
+            <p class="text">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
-          <li>
-            <h3>Punctuality</h3>
-            <p>
+          <li class="benefits-item">
+            <h3 class="benefits-second">Punctuality</h3>
+            <p class="text">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
-          <li>
-            <h3>Diligence</h3>
-            <p>
+          <li class="benefits-item">
+            <h3 class="benefits-second">Diligence</h3>
+            <p class="text">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
-          <li>
-            <h3>Technologies</h3>
-            <p>
+          <li class="benefits-item">
+            <h3 class="benefits-second">Technologies</h3>
+            <p class="text">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
@@ -71,89 +93,130 @@
         </ul>
       </section>
 
-      <!-- Section 3 -->
-      <section>
-        <h2>Our Team</h2>
-        <ul>
-          <li>
+      <!-- Section Our Team -->
+      <section class="main">
+        <h2 class="aside">Our Team</h2>
+        <ul class="aside-list">
+          <li class="aside-item">
             <img
+              class="aside-pic"
               src="./images/images-gerrera.jpg"
               alt="Mark Guerrero"
               width="264"
             />
-            <h3>Mark Guerrero</h3>
-            <p>Product Designer</p>
+            <h3 class="aside-title">Mark Guerrero</h3>
+            <p class="section-text">Product Designer</p>
           </li>
-          <li>
-            <img src="./images/images-ford.jpg" alt="Tom Ford" width="264" />
-            <h3>Tom Ford</h3>
-            <p>Frontend Developer</p>
-          </li>
-          <li>
+          <li class="aside-item">
             <img
+              class="aside-pic"
+              src="./images/images-ford.jpg"
+              alt="Tom Ford"
+              width="264"
+            />
+            <h3 class="aside-title">Tom Ford</h3>
+            <p class="section-text">Frontend Developer</p>
+          </li>
+          <li class="aside-item">
+            <img
+              class="aside-pic"
               src="./images/images-garcia.jpg"
               alt="Camila Garcia"
               width="264"
             />
-            <h3>Camila Garcia</h3>
-            <p>Marketing</p>
+            <h3 class="aside-title">Camila Garcia</h3>
+            <p class="section-text">Marketing</p>
           </li>
-          <li>
+          <li class="aside-item">
             <img
+              class="aside-pic"
               src="./images/images-wilson.jpg"
               alt="Daniel Wilson"
               width="264"
             />
-            <h3>Daniel Wilson</h3>
-            <p>UI Designer</p>
+            <h3 class="aside-title">Daniel Wilson</h3>
+            <p class="section-text">UI Designer</p>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Section Portfolio -->
+      <section>
+        <h2 class="portfolio-title">Our Portfolio</h2>
+        <ul class="portfolio-list">
+          <li class="portfolio-item">
+            <img
+              class="portfolio-pic"
+              src="./images/images-bank.jpg"
+              alt="Banking App"
+              width="360"
+              height="300"
+            />
+            <h3>Banking App</h3>
+            <p class="section-text">App</p>
+          </li>
+          <li class="portfolio-item">
+            <img
+              class="portfolio-pic"
+              src="./images/images-cash.jpg"
+              alt="Cashless Payment"
+              width="360"
+              height="300"
+            />
+            <h3>Cashless Payment</h3>
+            <p class="text">Marketing</p>
+          </li>
+          <li class="portfolio-item">
+            <img
+              class="portfolio-pic"
+              src="./images/images-meditation.jpg"
+              alt="Meditation App"
+              width="360"
+              height="300"
+            />
+            <h3>Meditation App</h3>
+            <p class="section-text">App</p>
+          </li>
+          <li class="portfolio-item">
+            <img
+              class="portfolio-pic"
+              src="./images/images-taxi.jpg"
+              alt="Taxi Service"
+              width="360"
+              height="300"
+            />
+            <h3>Taxi Service</h3>
+            <p class="section-text">Marketing</p>
+          </li>
+          <li class="portfolio-item">
+            <img
+              class="portfolio-pic"
+              src="./images/images-illustration.jpg"
+              alt="Screen Illustrations"
+              width="360"
+              height="300"
+            />
+            <h3>Screen Illustrations</h3>
+            <p class="section-text">Design</p>
+          </li>
+          <li class="portfolio-item">
+            <img
+              class="portfolio-pic"
+              src="./images/images-courses.jpg"
+              alt="Online Courses"
+              width="360"
+              height="300"
+            />
+            <h3>Online Courses</h3>
+            <p class="text">Marketing</p>
           </li>
         </ul>
       </section>
     </main>
 
-    <!-- Section 4 -->
-    <section>
-      <h2>Our Portfolio</h2>
-      <ui>
-        <li>
-          <img src="./images/images-bank.jpg" alt="" />
-          <h3>Banking App</h3>
-          <p>App</p>
-        </li>
-        <li>
-          <img src="./images/images-cash.jpg" alt="Cashless Payment" />
-          <h3>Cashless Payment</h3>
-          <p>Marketing</p>
-        </li>
-        <li>
-          <img src="./images/images-meditation.jpg" alt="Meditation App" />
-          <h3>Meditation App</h3>
-          <p>App</p>
-        </li>
-        <li>
-          <img src="./images/images-taxi.jpg" alt="Taxi Service" />
-          <h3>Taxi Service</h3>
-          <p>Marketing</p>
-        </li>
-        <li>
-          <img
-            src="./images/images-illustration.jpg"
-            alt="Screen Illustrations"
-          />
-          <h3>Screen Illustrations</h3>
-          <p>Design</p>
-        </li>
-        <li>
-          <img src="./images/images-courses.jpg" alt="Online Courses" />
-          <h3>Online Courses</h3>
-          <p>Marketing</p>
-        </li>
-      </ui>
-    </section>
-
     <!-- Footer -->
-    <footer>
-      <a href="./index.html">WebStudio</a>
+    <footer class="footer">
+      <a class="text-logo" href=""><span class="logo-web">Web</span>Studio</a>
       <p>
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.

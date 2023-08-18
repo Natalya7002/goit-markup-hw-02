@@ -1,0 +1,140 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: rgba(67, 68, 85, 1);
+  background-color: #ffffff;
+}
+
+button{
+    width: Hug (169px)
+    height: Hug (56px)
+    top: 428px
+    left: 636px
+    padding: 16px 32px 16px 32px
+    border-radius: 4px
+    gap: 10px
+    
+background-color: rgba(77, 90, 229, 1); 
+}
+
+.page-header {
+width: 1440px
+height: 72px
+border: 0px 0px 1px 0px
+
+}
+
+.link,
+.address-link {
+  text-decoration: none; /* Зняти підкреслення */
+  font-style: normal;
+}
+
+/* знімає маркер списка */
+li {
+  list-style-type: none;
+}
+
+/* navigation */
+.text-logo{
+    width: Hug (115px)
+    height: Fixed (24px)
+    top: 24px
+    left: 156px
+    
+}
+.text-logo {
+  font-family: 'Raleway', serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  width: 115px;
+  height: 24px;
+  color: rgba(46, 47, 66, 1);
+  top: 24px
+  left: 156px
+}
+
+.logo-web {
+font-family: 'Raleway', serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-align: left;
+color: rgba(77, 90, 229, 1);
+}
+
+.contakts-nav {
+    width: Hug (261px)
+    height: Hug (24px)
+    top: 24px
+    left: 347px
+    gap: 40px
+     
+}
+
+.link{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: rgba(67, 68, 85, 1);
+}
+
+
+
+.address-link{
+
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.02em;
+text-align: left;
+color: rgba(67, 68, 85, 1);
+    
+}
+
+/* Section Hero */
+
+.titlle-hero{
+width: 1440px;
+height: 600px;
+top: 72px;
+background-color: rgba(46, 47, 66, 1);
+color:rgba(255, 255, 255, 1);
+}
+.title{
+width: 496px
+height: 120px
+top: 260px
+left: 472px
+}
+
+.title{
+font-family: 'Roboto', sans-serif;
+font-size: 56px;
+font-weight: 700;
+line-height: 1.07;
+letter-spacing: 0.02em;
+text-align: center;
+
+}
+
+.button{
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
+text-align: left;
+color: rgba(255, 255, 255, 1);    
+width: 105px
+height: 24px
+
+}
+
+
+
