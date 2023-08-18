@@ -5,15 +5,13 @@ body {
 }
 
 button{
-    width: Hug (169px)
-    height: Hug (56px)
-    top: 428px
-    left: 636px
-    padding: 16px 32px 16px 32px
-    border-radius: 4px
-    gap: 10px
-    
-background-color: rgba(77, 90, 229, 1); 
+    width: 169px;
+    height: 56px;
+    top: 428px;
+    left: 636px;
+    padding: 16px 32px 16px 32px;
+    border-radius: 4px;
+    gap: 10px;
 }
 
 .page-header {
@@ -26,7 +24,7 @@ border: 0px 0px 1px 0px
 .link,
 .address-link {
   text-decoration: none; /* Зняти підкреслення */
-  font-style: normal;
+ 
 }
 
 /* знімає маркер списка */
@@ -42,26 +40,31 @@ li {
     left: 156px
     
 }
-.text-logo {
-  font-family: 'Raleway', serif;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.17;
-  width: 115px;
-  height: 24px;
-  color: rgba(46, 47, 66, 1);
-  top: 24px
-  left: 156px
+.text-logo { 
+color: #4D5AE5;    
+font-family: 'Raleway',sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.67;
+letter-spacing: 0.03em;
+text-align: left;
+Width: 44px;
+Height: 21px;    
+   
 }
 
 .logo-web {
-font-family: 'Raleway', serif;
+color: #2E2F42;    
+font-family: 'Raleway', sans-serif;
 font-size: 18px;
 font-weight: 700;
-line-height: 1.17;
+line-height: 1.67;
 letter-spacing: 0.03em;
 text-align: left;
-color: rgba(77, 90, 229, 1);
+width: 71px;
+height: 21px;
+
+    
 }
 
 .contakts-nav {
@@ -73,6 +76,11 @@ color: rgba(77, 90, 229, 1);
      
 }
 
+.link:hover,
+.link:focus{
+    color: #404bbf;
+}
+
 .link{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -80,13 +88,14 @@ color: rgba(77, 90, 229, 1);
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: left;
-    color: rgba(67, 68, 85, 1);
+    color:  #2e2f42;
+    text-decoration: ho;
 }
 
 
 
 .address-link{
-
+font-style: normal;
 font-family: 'Roboto', sans-serif;
 font-size: 16px;
 font-weight: 400;
@@ -96,7 +105,10 @@ text-align: left;
 color: rgba(67, 68, 85, 1);
     
 }
-
+.address-link:hover,
+.address-link:focus{
+    color: #404bbf;
+}
 /* Section Hero */
 
 .titlle-hero{
@@ -124,6 +136,8 @@ text-align: center;
 }
 
 .button{
+cursor: pointer;    
+background-color: #4D5AE5;    
 font-family: 'Roboto', sans-serif;
 font-size: 16px;
 font-weight: 500;
@@ -135,8 +149,14 @@ width: 105px
 height: 24px
 
 }
-
+.button:hover,
+.button:focus{
+    color: #404BBF;
+}
 /* Section 2 */
+.benefits{
+line-height: 1.2;   
+}
 .contant{
     width: 1128px
     height: 104px
@@ -149,7 +169,7 @@ height: 24px
 font-family: 'Roboto', sans-serif;
 font-size: 20px;
 font-weight: 500;
-line-height: 1.5;
+line-height: 1.2;
 letter-spacing: 0.02em;
 text-align: left;
 color: rgba(46, 47, 66, 1);
@@ -174,21 +194,66 @@ top: 1016px
 }
 
 .aside{
+color: #2E2F42;    
 font-family: 'Roboto', sans-serif;
 font-size: 36px;
 font-weight: 700;
-line-height: 1.1;
+line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
+text-transform: capitalize;
 }
 
-.aside-item{   
-width: Fixed (232px)
-height: Hug (56px)
+.aside-item{ 
+background-color: #FFFFFF;      
+width: 232px;
+height: 56px;
 gap: 8px
     
 }
+.one{
+    width: 264px;
+    height: 380px;
+    top: 1248px;
+    left: 156px;
+    padding: 0px 0px 32px 0px;
+    border-radius: 0px 0px 4px 4px;
+    gap: 32px;
+    
+}
 
+.second{
+width: 264px;
+height: 380px;
+top: 1248px;
+left: 444px;
+padding: 0px 0px 32px 0px;
+border-radius: 0px 0px 4px 4px;
+gap: 32px;
+
+}
+
+.third{
+width: 264px;
+height: 380px;
+top: 1248px;
+left: 732px;
+padding: 0px 0px 32px 0px;
+border-radius: 0px 0px 4px 4px;
+gap: 32px;
+
+}
+
+.fourth{
+width: 264px;
+height: 380px;
+top: 1248px;
+left: 1020px;
+padding: 0px 0px 32px 0px;
+border-radius: 0px 0px 4px 4px;
+gap: 32px;
+    
+}
 
 .aside-title{
 color: rgba(46, 47, 66, 1);    
@@ -198,6 +263,7 @@ font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.02em;
 text-align: center;
+text-transform: capitalize;
     
 }
 
@@ -222,12 +288,14 @@ color: rgba(231, 233, 252, 1);
 }
 
 .portfolio-title{
+color: #2E2F42;    
 font-family: 'Roboto', sans-serif;
 font-size: 36px;
 font-weight: 700;
-line-height: 40px;
+line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
+text-transform: capitalize;
 }
 
 .portfolio-item{
@@ -267,19 +335,36 @@ top: 2988px;
 background-color: rgba(46, 47, 66, 1);
 }
 
-.footer-logo{
-width: 115px;
-height: 24px;
-top: 3088px;
-left: 156px;  
+.text-logo{
+color: #4D5AE5;    
+font-family: 'Raleway', sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 21px;
+letter-spacing: 0.03em;
+text-align: left;
+
+} 
+
+.logo-web-two{
+color: #F4F4FD;    
+font-family: Raleway;
+font-size: 18px;
+font-weight: 700;
+line-height: 21px;
+letter-spacing: 0.03em;
+text-align: left;
+
 }
 
 .footer-text{
-font-family: 'Roboto', sans-serif;
+color:  #F4F4FD;    
+font-family:  "Raleway", sans-serif;
 font-size: 16px;
 font-weight: 400;
 line-height: 24px;
-letter-spacing: 0.02em;
-text-align: left;    
+letter-spacing: 0.03em;
+text-align: left; 
+text-transform: uppercase;   
 }
 
